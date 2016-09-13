@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Main style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Gamify Ad Demo</title>
+</head>
+<body>
+
+<section id="ad-wrapper">
+	<!-- <header>
+		<h1>How Much Can You Make?</h1>
+	</header> -->
+
+	<div class="text-block">
+		<h2>Bought at <strong>Auction.com</strong> for <span id="buy-price">$72,000</span></h2>
+	</div>
+
+	<figure class="ad-image-container">
+		<img src="img/before12.jpg" alt="Before Remodel">
+		<span class="drag-txt">Click and drag to see the Remodel</span>
+		<span class="ad-image-label" data-type="original">Before</span>
+
+		<div class="ad-resize-img"> <!-- the resizable image on top -->
+			<img src="img/after12.jpg" alt="After Remodel">
+			<span class="ad-image-label" data-type="modified">After</span>
+		</div>
+
+		<span class="ad-handle"></span>
+	</figure> <!-- ad-image-container -->
+
+	<div class="game">
+		<h2>Guess how much it <span class="yellow">sold</span> for?</h2>
+		<div class="button-row animate">
+			<button class="wrong-price">$105,000</button>
+			<button class="wrong-price">$165,000</button>
+			<button id="sell-price">$230,000</button>
+		</div>
+	</div>
+
+	<section id="correct-overlay">
+		<h1>Correct!</h1>
+		<div class="img-container">
+			<img src="img/before12.jpg" alt="Before Remodel" />
+			<p>Bought: </p>
+			<p class='yellow'>$72,000</p>
+		</div>
+		<div class="img-container">
+			<img src="img/after12.jpg" alt="After Remodel" />			
+			<p>Sold:</p>
+			<p class='yellow'>$230,000</p>
+		</div>
+
+		<footer>
+			<img src="img/bottom.png" />
+				<!-- <img src="img/mouse2.png" class="mouse_icon" /> -->
+				<p class="arrow-txt">
+					How much can <span class="yellow">you</span> make?	
+				</p>
+
+			<!-- <div class="arrow">
+				<img src="img/blue_arrow2.png" />
+				<p class="arrow-txt">
+					Click to find your next opportunity		
+				</p>
+			</div>
+			<div class="logo">
+				<img src="img/logo.png" />
+			</div> -->
+		</footer>
+	</section>
+
+	<div id="wrong-overlay">
+		<h1>Nope!</h1>
+		<h2>Try Again</h2>
+	</div>
+
+</section>
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+<script src="js/slider.js"></script> <!-- img Slider JS -->
+<script src="js/main.js"></script> 
+</body>
+</html>

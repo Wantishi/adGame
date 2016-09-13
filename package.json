@@ -1,0 +1,20 @@
+{
+  "name": "adgame",
+  "version": "0.0.1",
+  "description": "demo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Romero",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Wantishi/adGame.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
