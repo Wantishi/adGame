@@ -59,10 +59,10 @@ header {
 
 #buy-price {
   font-weight: bold;
-  color: #ffffB2; }
+  color: #FFFF99; }
 
 .yellow {
-  color: #ffffB2;
+  color: #FFFF99;
   font-weight: bold; }
 
 /* -------------------------------- 
@@ -268,14 +268,14 @@ Button Row
       border: 1px solid #333;
       cursor: pointer; }
       .game .button-row button:hover {
-        background-color: #ffffB2; }
+        background-color: #FFFF99; }
 
 @-webkit-keyframes highlight {
   0% {
     background-color: #ffffff; }
   12% {
-    background-color: #ffffB2;
-    -webkit-box-shadow: 0 0 5px #ffffB2; }
+    background-color: #FFFF99;
+    -webkit-box-shadow: 0 0 5px #FFFF99; }
   25% {
     background-color: #ffffff; }
   100% {
@@ -284,8 +284,8 @@ Button Row
   0% {
     background-color: #ffffff; }
   12% {
-    background-color: #ffffB2;
-    -webkit-box-shadow: 0 0 5px #ffffB2; }
+    background-color: #FFFF99;
+    -webkit-box-shadow: 0 0 5px #FFFF99; }
   25% {
     background-color: #ffffff; }
   100% {
@@ -294,8 +294,8 @@ Button Row
   0% {
     background-color: #ffffff; }
   12% {
-    background-color: #ffffB2;
-    -webkit-box-shadow: 0 0 5px #ffffB2; }
+    background-color: #FFFF99;
+    -webkit-box-shadow: 0 0 5px #FFFF99; }
   25% {
     background-color: #ffffff; }
   100% {
